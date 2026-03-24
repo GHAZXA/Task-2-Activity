@@ -1,8 +1,21 @@
 Activity 2 Checklist
 
+Grade:
+- Test log
+- Is the code legal
+- does it follow GDPR(Data security)
+
+You need:
+- Test Log
+- Asset Log
+- Change Log
+- Development Log
 
 Asset Log Table Structure:
 Asset ID | Type of Asset | Source / URL |  Description of Content  |  Intended Purpose  |  Date Retrieved
+
+Test Log Table Structure:
+Description of test | Test data to be used (if required) | Expected outcome | Actual outcome | Comments and intended actions
 
 Jinja2(flask) Syntax:
 Block title:
@@ -27,7 +40,7 @@ CSS properties and values explaination:
 display: block;
 
 Explaination: 
-This is a block level element this is going to take up the entire space of the page
+This is a block level element this is going to take up the entire width space on the page
 aspects of this works in elements like: div, p, h1, footer and form by default.
 
 display: inline;
@@ -37,6 +50,29 @@ This an inline level this takes up a small space around a text.
 aspects of this works in elements like: span, a and img by default
 
 Testing and test log:
-Boundary testing
-Extreme testing
-Erroneous testing
+ITERATIVE TESTING:
+Put the data and if you retested say you retested
+
+TEST DATA
+Normal testing - every day sensible input
+Extreme testing - value at the maximum or minimum  data allowed in the system
+Erroneous testing - wrong or impossible type of data that is outside valid range
+
+Speak about:
+- Iteative Testing
+- Accessibility Testing
+- Colour contrast
+- Keyboard Navigation
+
+Change Log:
+You need:
+- Name
+- Date
+- Description
+- Reason
+
+Development Log:
+Talk about: 
+- Flask setup
+- Problems you faced
+- Whether the code follows GDPR and other laws
