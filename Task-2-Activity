@@ -1,5 +1,9 @@
 Activity 2 Checklist
 
+GET METHOD in flask - not secured
+
+POST METHOD in flask - secured
+
 Grade:
 - Test log
 - Is the code legal
@@ -90,6 +94,7 @@ Ethically, this prevents exclusion of users who rely on assistive technologies.'
 Development Log:
 Talk about: 
 - Flask setup
+- What coding language you used(python flask, sql, HTML, CSS and potential javascript)
 - Problems you faced
 - Whether the code follows GDPR and other laws
 
