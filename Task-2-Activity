@@ -67,6 +67,10 @@ Normal testing - every day sensible input
 Extreme testing - value at the maximum or minimum  data allowed in the system
 Erroneous testing - wrong or impossible type of data that is outside valid range
 
+You can test:
+- Username, email, password anything to do with form
+- If the button like instagram links actually redirects
+
 Speak about:
 - Iteative Testing
 - Accessibility Testing
