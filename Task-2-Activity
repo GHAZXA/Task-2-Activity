@@ -58,6 +58,15 @@ Explaination:
 This an inline level this takes up a small space around a text.
 aspects of this works in elements like: span, a and img by default
 
+Flash flash module:
+{% with messages = flashing_messages() %}
+  {% if messages %}
+    {% for msg in messages %}
+      <p>msg</p>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+
 Testing and test log:
 ITERATIVE TESTING:
 Put the data and if you retested say you retested
@@ -126,3 +135,5 @@ for users with low vision or colour vision deficiencies.
 This supports compliance with the Equality Act 2010 by reducing
 the risk of excluding users who may otherwise be unable to read
 low-contrast content.
+
+
