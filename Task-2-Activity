@@ -67,6 +67,11 @@ Flash flash module:
   {% endif %}
 {% endwith %}
 
+Explaination: shows message in website this is jinja2 syntax
+
+Displaying the message in app.py file:
+flash(f'my message', 'info')
+
 Testing and test log:
 ITERATIVE TESTING:
 Put the data and if you retested say you retested
